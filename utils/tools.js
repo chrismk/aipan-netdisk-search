@@ -6,6 +6,8 @@ export const formatCloudDriveName = (url) => {
         service = 'XUNLEI';
     } else if (url.includes('pan.quark.cn')) {
         service = 'QUARK';
+    } else if (url.includes('115.com')) {
+        service = '115';        
     } else if (url.includes('www.aliyundrive.com')) {
         service = 'ALIYUN'
     } else {
